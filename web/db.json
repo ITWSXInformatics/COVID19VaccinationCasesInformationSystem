@@ -1,0 +1,534 @@
+{
+    "covid_states": {
+        "AK": {
+            "name": "AK",
+            "cases": 61744,
+            "deaths": 299,
+            "cases_day": 186,
+            "deaths_day": 0,
+            "vac_adm": 570465,
+            "vac_first": 245355,
+            "vac_second": 160197
+        },
+        "AL": {
+            "name": "AL",
+            "cases": 511826,
+            "deaths": 10526,
+            "cases_day": 319,
+            "deaths_day": 0,
+            "vac_adm": 2537050,
+            "vac_first": 1108253,
+            "vac_second": 628500
+        },
+        "AR": {
+            "name": "AR",
+            "cases": 329929,
+            "deaths": 5595,
+            "cases_day": 69,
+            "deaths_day": 5,
+            "vac_adm": 1662850,
+            "vac_first": 763783,
+            "vac_second": 403398
+        },
+        "AZ": {
+            "name": "AZ",
+            "cases": 838547,
+            "deaths": 16919,
+            "cases_day": 554,
+            "deaths_day": 6,
+            "vac_adm": 3970345,
+            "vac_first": 2072778,
+            "vac_second": 1182684
+        },
+        "CA": {
+            "name": "CA",
+            "cases": 3661303,
+            "deaths": 58900,
+            "cases_day": 2499,
+            "deaths_day": 126,
+            "vac_adm": 21865730,
+            "vac_first": 11574080,
+            "vac_second": 5983249
+        },
+        "CO": {
+            "name": "CO",
+            "cases": 460827,
+            "deaths": 6165,
+            "cases_day": 713,
+            "deaths_day": 0,
+            "vac_adm": 3060410,
+            "vac_first": 1639579,
+            "vac_second": 966835
+        },
+        "CT": {
+            "name": "CT",
+            "cases": 304386,
+            "deaths": 7865,
+            "cases_day": 1700,
+            "deaths_day": 0,
+            "vac_adm": 2211275,
+            "vac_first": 1202316,
+            "vac_second": 682603
+        },
+        "DC": {
+            "name": "DC",
+            "cases": 44175,
+            "deaths": 1056,
+            "cases_day": 124,
+            "deaths_day": 0,
+            "vac_adm": 491635,
+            "vac_first": 175453,
+            "vac_second": 88137
+        },
+        "DE": {
+            "name": "DE",
+            "cases": 94062,
+            "deaths": 1544,
+            "cases_day": 361,
+            "deaths_day": 0,
+            "vac_adm": 555005,
+            "vac_first": 285100,
+            "vac_second": 149897
+        },
+        "FL": {
+            "name": "FL",
+            "cases": 2040127,
+            "deaths": 33177,
+            "cases_day": 4943,
+            "deaths_day": 36,
+            "vac_adm": 12219460,
+            "vac_first": 5837452,
+            "vac_second": 3248263
+        },
+        "GA": {
+            "name": "GA",
+            "cases": 1030899,
+            "deaths": 18349,
+            "cases_day": 902,
+            "deaths_day": 0,
+            "vac_adm": 5385975,
+            "vac_first": 2401381,
+            "vac_second": 1267677
+        },
+        "HI": {
+            "name": "HI",
+            "cases": 29528,
+            "deaths": 459,
+            "cases_day": 102,
+            "deaths_day": 0,
+            "vac_adm": 890600,
+            "vac_first": 422366,
+            "vac_second": 251645
+        },
+        "IA": {
+            "name": "IA",
+            "cases": 349714,
+            "deaths": 5725,
+            "cases_day": 160,
+            "deaths_day": 7,
+            "vac_adm": 1696035,
+            "vac_first": 942877,
+            "vac_second": 585741
+        },
+        "ID": {
+            "name": "ID",
+            "cases": 179511,
+            "deaths": 1957,
+            "cases_day": 198,
+            "deaths_day": 0,
+            "vac_adm": 910095,
+            "vac_first": 448334,
+            "vac_second": 282222
+        },
+        "IL": {
+            "name": "IL",
+            "cases": 1241187,
+            "deaths": 23521,
+            "cases_day": 2175,
+            "deaths_day": 23,
+            "vac_adm": 6883535,
+            "vac_first": 3763201,
+            "vac_second": 1996988
+        },
+        "IN": {
+            "name": "IN",
+            "cases": 686908,
+            "deaths": 13023,
+            "cases_day": 944,
+            "deaths_day": 12,
+            "vac_adm": 3328110,
+            "vac_first": 1651837,
+            "vac_second": 1082231
+        },
+        "KS": {
+            "name": "KS",
+            "cases": 303710,
+            "deaths": 4891,
+            "cases_day": 443,
+            "deaths_day": 0,
+            "vac_adm": 1643765,
+            "vac_first": 846744,
+            "vac_second": 471050
+        },
+        "KY": {
+            "name": "KY",
+            "cases": 427919,
+            "deaths": 6062,
+            "cases_day": 312,
+            "deaths_day": 9,
+            "vac_adm": 2371375,
+            "vac_first": 1347152,
+            "vac_second": 731464
+        },
+        "LA": {
+            "name": "LA",
+            "cases": 443069,
+            "deaths": 10087,
+            "cases_day": 449,
+            "deaths_day": 0,
+            "vac_adm": 2550580,
+            "vac_first": 1177111,
+            "vac_second": 719571
+        },
+        "MA": {
+            "name": "MA",
+            "cases": 629531,
+            "deaths": 17115,
+            "cases_day": 1975,
+            "deaths_day": 29,
+            "vac_adm": 3848770,
+            "vac_first": 2251089,
+            "vac_second": 1227553
+        },
+        "MD": {
+            "name": "MD",
+            "cases": 408229,
+            "deaths": 8251,
+            "cases_day": 1335,
+            "deaths_day": 5,
+            "vac_adm": 3335590,
+            "vac_first": 1791217,
+            "vac_second": 966962
+        },
+        "ME": {
+            "name": "ME",
+            "cases": 49850,
+            "deaths": 736,
+            "cases_day": 197,
+            "deaths_day": 0,
+            "vac_adm": 791220,
+            "vac_first": 446546,
+            "vac_second": 254300
+        },
+        "MI": {
+            "name": "MI",
+            "cases": 723324,
+            "deaths": 17038,
+            "cases_day": 116,
+            "deaths_day": 0,
+            "vac_adm": 5249380,
+            "vac_first": 2725322,
+            "vac_second": 1616040
+        },
+        "MN": {
+            "name": "MN",
+            "cases": 515136,
+            "deaths": 6908,
+            "cases_day": 1225,
+            "deaths_day": 5,
+            "vac_adm": 2907150,
+            "vac_first": 1703543,
+            "vac_second": 1001877
+        },
+        "MO": {
+            "name": "MO",
+            "cases": 583530,
+            "deaths": 8943,
+            "cases_day": 336,
+            "deaths_day": 1,
+            "vac_adm": 3256125,
+            "vac_first": 1529606,
+            "vac_second": 868835
+        },
+        "MP": {
+            "name": "MP",
+            "cases": 159,
+            "deaths": 2,
+            "cases_day": 0,
+            "deaths_day": 0,
+            "vac_adm": "0",
+            "vac_first": "0",
+            "vac_second": "0"
+        },
+        "MS": {
+            "name": "MS",
+            "cases": 304616,
+            "deaths": 7001,
+            "cases_day": 196,
+            "deaths_day": 1,
+            "vac_adm": 1614655,
+            "vac_first": 704342,
+            "vac_second": 414910
+        },
+        "MT": {
+            "name": "MT",
+            "cases": 104184,
+            "deaths": 1436,
+            "cases_day": 25,
+            "deaths_day": 0,
+            "vac_adm": 632625,
+            "vac_first": 316057,
+            "vac_second": 192701
+        },
+        "NC": {
+            "name": "NC",
+            "cases": 906516,
+            "deaths": 12051,
+            "cases_day": 2192,
+            "deaths_day": 2,
+            "vac_adm": 5680940,
+            "vac_first": 2952779,
+            "vac_second": 1653037
+        },
+        "ND": {
+            "name": "ND",
+            "cases": 102615,
+            "deaths": 1498,
+            "cases_day": 47,
+            "deaths_day": 0,
+            "vac_adm": 437720,
+            "vac_first": 236146,
+            "vac_second": 149705
+        },
+        "NE": {
+            "name": "NE",
+            "cases": 208867,
+            "deaths": 2281,
+            "cases_day": 160,
+            "deaths_day": 0,
+            "vac_adm": 1072470,
+            "vac_first": 568784,
+            "vac_second": 328551
+        },
+        "NH": {
+            "name": "NH",
+            "cases": 83027,
+            "deaths": 1237,
+            "cases_day": 282,
+            "deaths_day": 2,
+            "vac_adm": 743355,
+            "vac_first": 408402,
+            "vac_second": 228288
+        },
+        "NJ": {
+            "name": "NJ",
+            "cases": 896650,
+            "deaths": 24389,
+            "cases_day": 4505,
+            "deaths_day": 7,
+            "vac_adm": 4794085,
+            "vac_first": 2822580,
+            "vac_second": 1538648
+        },
+        "NM": {
+            "name": "NM",
+            "cases": 191048,
+            "deaths": 3927,
+            "cases_day": 161,
+            "deaths_day": 0,
+            "vac_adm": 1337435,
+            "vac_first": 778035,
+            "vac_second": 477055
+        },
+        "NV": {
+            "name": "NV",
+            "cases": 303093,
+            "deaths": 5236,
+            "cases_day": 142,
+            "deaths_day": 0,
+            "vac_adm": 1548430,
+            "vac_first": 828805,
+            "vac_second": 472434
+        },
+        "NY": {
+            "name": "NY",
+            "cases": 1849190,
+            "deaths": 49537,
+            "cases_day": 8852,
+            "deaths_day": 91,
+            "vac_adm": 11109840,
+            "vac_first": 5761882,
+            "vac_second": 2960695
+        },
+        "OH": {
+            "name": "OH",
+            "cases": 1011622,
+            "deaths": 18526,
+            "cases_day": 1019,
+            "deaths_day": 0,
+            "vac_adm": 6386995,
+            "vac_first": 3266675,
+            "vac_second": 1885553
+        },
+        "OK": {
+            "name": "OK",
+            "cases": 436971,
+            "deaths": 4850,
+            "cases_day": 467,
+            "deaths_day": 0,
+            "vac_adm": 2530785,
+            "vac_first": 1192525,
+            "vac_second": 675816
+        },
+        "OR": {
+            "name": "OR",
+            "cases": 163952,
+            "deaths": 2386,
+            "cases_day": 215,
+            "deaths_day": 0,
+            "vac_adm": 2205385,
+            "vac_first": 1141447,
+            "vac_second": 665111
+        },
+        "PA": {
+            "name": "PA",
+            "cases": 1016713,
+            "deaths": 25058,
+            "cases_day": 2576,
+            "deaths_day": 14,
+            "vac_adm": 7164385,
+            "vac_first": 3917341,
+            "vac_second": 2007637
+        },
+        "PR": {
+            "name": "PR",
+            "cases": 140103,
+            "deaths": 2112,
+            "cases_day": 595,
+            "deaths_day": 0,
+            "vac_adm": "0",
+            "vac_first": "0",
+            "vac_second": "0"
+        },
+        "RI": {
+            "name": "RI",
+            "cases": 135775,
+            "deaths": 2608,
+            "cases_day": 485,
+            "deaths_day": 0,
+            "vac_adm": 616065,
+            "vac_first": 331853,
+            "vac_second": 205007
+        },
+        "SC": {
+            "name": "SC",
+            "cases": 549199,
+            "deaths": 9122,
+            "cases_day": 1085,
+            "deaths_day": 18,
+            "vac_adm": 2652225,
+            "vac_first": 1355018,
+            "vac_second": 738219
+        },
+        "SD": {
+            "name": "SD",
+            "cases": 117244,
+            "deaths": 1933,
+            "cases_day": 163,
+            "deaths_day": 0,
+            "vac_adm": 581525,
+            "vac_first": 300563,
+            "vac_second": 191284
+        },
+        "TN": {
+            "name": "TN",
+            "cases": 792811,
+            "deaths": 11713,
+            "cases_day": 48,
+            "deaths_day": 0,
+            "vac_adm": 3554800,
+            "vac_first": 1647245,
+            "vac_second": 897034
+        },
+        "TX": {
+            "name": "TX",
+            "cases": 2743679,
+            "deaths": 48263,
+            "cases_day": 3293,
+            "deaths_day": 51,
+            "vac_adm": 14660800,
+            "vac_first": 7099537,
+            "vac_second": 3684436
+        },
+        "UT": {
+            "name": "UT",
+            "cases": 384621,
+            "deaths": 2114,
+            "cases_day": 390,
+            "deaths_day": 13,
+            "vac_adm": 1500500,
+            "vac_first": 783973,
+            "vac_second": 349967
+        },
+        "VA": {
+            "name": "VA",
+            "cases": 615366,
+            "deaths": 10198,
+            "cases_day": 1392,
+            "deaths_day": 20,
+            "vac_adm": 4489825,
+            "vac_first": 2493161,
+            "vac_second": 1359316
+        },
+        "VT": {
+            "name": "VT",
+            "cases": 18820,
+            "deaths": 225,
+            "cases_day": 197,
+            "deaths_day": 1,
+            "vac_adm": 393330,
+            "vac_first": 199645,
+            "vac_second": 108611
+        },
+        "WA": {
+            "name": "WA",
+            "cases": 363659,
+            "deaths": 5288,
+            "cases_day": 71,
+            "deaths_day": 0,
+            "vac_adm": 4114320,
+            "vac_first": 2188808,
+            "vac_second": 1279534
+        },
+        "WI": {
+            "name": "WI",
+            "cases": 633717,
+            "deaths": 7275,
+            "cases_day": 471,
+            "deaths_day": 0,
+            "vac_adm": 2996415,
+            "vac_first": 1794367,
+            "vac_second": 1039433
+        },
+        "WV": {
+            "name": "WV",
+            "cases": 140613,
+            "deaths": 2634,
+            "cases_day": 297,
+            "deaths_day": 3,
+            "vac_adm": 1067635,
+            "vac_first": 524381,
+            "vac_second": 330678
+        },
+        "WY": {
+            "name": "WY",
+            "cases": 56046,
+            "deaths": 695,
+            "cases_day": 0,
+            "deaths_day": 0,
+            "vac_adm": 353975,
+            "vac_first": 147413,
+            "vac_second": 96398
+        }
+    }
+}

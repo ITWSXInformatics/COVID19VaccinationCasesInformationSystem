@@ -1,0 +1,532 @@
+[
+    {
+        "state": "AK",
+        "case_t": 61744,
+        "death_t": 299,
+        "case_new": 186,
+        "death_new": 0,
+        "vac_distributed": 570465,
+        "vac_initiated": 245355,
+        "vac_completed": 160197
+    },
+    {
+        "state": "AL",
+        "case_t": 511826,
+        "death_t": 10526,
+        "case_new": 319,
+        "death_new": 0,
+        "vac_distributed": 2537050,
+        "vac_initiated": 1108253,
+        "vac_completed": 628500
+    },
+    {
+        "state": "AR",
+        "case_t": 329929,
+        "death_t": 5595,
+        "case_new": 69,
+        "death_new": 5,
+        "vac_distributed": 1662850,
+        "vac_initiated": 763783,
+        "vac_completed": 403398
+    },
+    {
+        "state": "AZ",
+        "case_t": 838547,
+        "death_t": 16919,
+        "case_new": 554,
+        "death_new": 6,
+        "vac_distributed": 3970345,
+        "vac_initiated": 2072778,
+        "vac_completed": 1182684
+    },
+    {
+        "state": "CA",
+        "case_t": 3661303,
+        "death_t": 58900,
+        "case_new": 2499,
+        "death_new": 126,
+        "vac_distributed": 21865730,
+        "vac_initiated": 11574080,
+        "vac_completed": 5983249
+    },
+    {
+        "state": "CO",
+        "case_t": 460827,
+        "death_t": 6165,
+        "case_new": 713,
+        "death_new": 0,
+        "vac_distributed": 3060410,
+        "vac_initiated": 1639579,
+        "vac_completed": 966835
+    },
+    {
+        "state": "CT",
+        "case_t": 304386,
+        "death_t": 7865,
+        "case_new": 1700,
+        "death_new": 0,
+        "vac_distributed": 2211275,
+        "vac_initiated": 1202316,
+        "vac_completed": 682603
+    },
+    {
+        "state": "DC",
+        "case_t": 44175,
+        "death_t": 1056,
+        "case_new": 124,
+        "death_new": 0,
+        "vac_distributed": 491635,
+        "vac_initiated": 175453,
+        "vac_completed": 88137
+    },
+    {
+        "state": "DE",
+        "case_t": 94062,
+        "death_t": 1544,
+        "case_new": 361,
+        "death_new": 0,
+        "vac_distributed": 555005,
+        "vac_initiated": 285100,
+        "vac_completed": 149897
+    },
+    {
+        "state": "FL",
+        "case_t": 2040127,
+        "death_t": 33177,
+        "case_new": 4943,
+        "death_new": 36,
+        "vac_distributed": 12219460,
+        "vac_initiated": 5837452,
+        "vac_completed": 3248263
+    },
+    {
+        "state": "GA",
+        "case_t": 1030899,
+        "death_t": 18349,
+        "case_new": 902,
+        "death_new": 0,
+        "vac_distributed": 5385975,
+        "vac_initiated": 2401381,
+        "vac_completed": 1267677
+    },
+    {
+        "state": "HI",
+        "case_t": 29528,
+        "death_t": 459,
+        "case_new": 102,
+        "death_new": 0,
+        "vac_distributed": 890600,
+        "vac_initiated": 422366,
+        "vac_completed": 251645
+    },
+    {
+        "state": "IA",
+        "case_t": 349714,
+        "death_t": 5725,
+        "case_new": 160,
+        "death_new": 7,
+        "vac_distributed": 1696035,
+        "vac_initiated": 942877,
+        "vac_completed": 585741
+    },
+    {
+        "state": "ID",
+        "case_t": 179511,
+        "death_t": 1957,
+        "case_new": 198,
+        "death_new": 0,
+        "vac_distributed": 910095,
+        "vac_initiated": 448334,
+        "vac_completed": 282222
+    },
+    {
+        "state": "IL",
+        "case_t": 1241187,
+        "death_t": 23521,
+        "case_new": 2175,
+        "death_new": 23,
+        "vac_distributed": 6883535,
+        "vac_initiated": 3763201,
+        "vac_completed": 1996988
+    },
+    {
+        "state": "IN",
+        "case_t": 686908,
+        "death_t": 13023,
+        "case_new": 944,
+        "death_new": 12,
+        "vac_distributed": 3328110,
+        "vac_initiated": 1651837,
+        "vac_completed": 1082231
+    },
+    {
+        "state": "KS",
+        "case_t": 303710,
+        "death_t": 4891,
+        "case_new": 443,
+        "death_new": 0,
+        "vac_distributed": 1643765,
+        "vac_initiated": 846744,
+        "vac_completed": 471050
+    },
+    {
+        "state": "KY",
+        "case_t": 427919,
+        "death_t": 6062,
+        "case_new": 312,
+        "death_new": 9,
+        "vac_distributed": 2371375,
+        "vac_initiated": 1347152,
+        "vac_completed": 731464
+    },
+    {
+        "state": "LA",
+        "case_t": 443069,
+        "death_t": 10087,
+        "case_new": 449,
+        "death_new": 0,
+        "vac_distributed": 2550580,
+        "vac_initiated": 1177111,
+        "vac_completed": 719571
+    },
+    {
+        "state": "MA",
+        "case_t": 629531,
+        "death_t": 17115,
+        "case_new": 1975,
+        "death_new": 29,
+        "vac_distributed": 3848770,
+        "vac_initiated": 2251089,
+        "vac_completed": 1227553
+    },
+    {
+        "state": "MD",
+        "case_t": 408229,
+        "death_t": 8251,
+        "case_new": 1335,
+        "death_new": 5,
+        "vac_distributed": 3335590,
+        "vac_initiated": 1791217,
+        "vac_completed": 966962
+    },
+    {
+        "state": "ME",
+        "case_t": 49850,
+        "death_t": 736,
+        "case_new": 197,
+        "death_new": 0,
+        "vac_distributed": 791220,
+        "vac_initiated": 446546,
+        "vac_completed": 254300
+    },
+    {
+        "state": "MI",
+        "case_t": 723324,
+        "death_t": 17038,
+        "case_new": 116,
+        "death_new": 0,
+        "vac_distributed": 5249380,
+        "vac_initiated": 2725322,
+        "vac_completed": 1616040
+    },
+    {
+        "state": "MN",
+        "case_t": 515136,
+        "death_t": 6908,
+        "case_new": 1225,
+        "death_new": 5,
+        "vac_distributed": 2907150,
+        "vac_initiated": 1703543,
+        "vac_completed": 1001877
+    },
+    {
+        "state": "MO",
+        "case_t": 583530,
+        "death_t": 8943,
+        "case_new": 336,
+        "death_new": 1,
+        "vac_distributed": 3256125,
+        "vac_initiated": 1529606,
+        "vac_completed": 868835
+    },
+    {
+        "state": "MP",
+        "case_t": 159,
+        "death_t": 2,
+        "case_new": 0,
+        "death_new": 0,
+        "vac_distributed": "0",
+        "vac_initiated": "0",
+        "vac_completed": "0"
+    },
+    {
+        "state": "MS",
+        "case_t": 304616,
+        "death_t": 7001,
+        "case_new": 196,
+        "death_new": 1,
+        "vac_distributed": 1614655,
+        "vac_initiated": 704342,
+        "vac_completed": 414910
+    },
+    {
+        "state": "MT",
+        "case_t": 104184,
+        "death_t": 1436,
+        "case_new": 25,
+        "death_new": 0,
+        "vac_distributed": 632625,
+        "vac_initiated": 316057,
+        "vac_completed": 192701
+    },
+    {
+        "state": "NC",
+        "case_t": 906516,
+        "death_t": 12051,
+        "case_new": 2192,
+        "death_new": 2,
+        "vac_distributed": 5680940,
+        "vac_initiated": 2952779,
+        "vac_completed": 1653037
+    },
+    {
+        "state": "ND",
+        "case_t": 102615,
+        "death_t": 1498,
+        "case_new": 47,
+        "death_new": 0,
+        "vac_distributed": 437720,
+        "vac_initiated": 236146,
+        "vac_completed": 149705
+    },
+    {
+        "state": "NE",
+        "case_t": 208867,
+        "death_t": 2281,
+        "case_new": 160,
+        "death_new": 0,
+        "vac_distributed": 1072470,
+        "vac_initiated": 568784,
+        "vac_completed": 328551
+    },
+    {
+        "state": "NH",
+        "case_t": 83027,
+        "death_t": 1237,
+        "case_new": 282,
+        "death_new": 2,
+        "vac_distributed": 743355,
+        "vac_initiated": 408402,
+        "vac_completed": 228288
+    },
+    {
+        "state": "NJ",
+        "case_t": 896650,
+        "death_t": 24389,
+        "case_new": 4505,
+        "death_new": 7,
+        "vac_distributed": 4794085,
+        "vac_initiated": 2822580,
+        "vac_completed": 1538648
+    },
+    {
+        "state": "NM",
+        "case_t": 191048,
+        "death_t": 3927,
+        "case_new": 161,
+        "death_new": 0,
+        "vac_distributed": 1337435,
+        "vac_initiated": 778035,
+        "vac_completed": 477055
+    },
+    {
+        "state": "NV",
+        "case_t": 303093,
+        "death_t": 5236,
+        "case_new": 142,
+        "death_new": 0,
+        "vac_distributed": 1548430,
+        "vac_initiated": 828805,
+        "vac_completed": 472434
+    },
+    {
+        "state": "NY",
+        "case_t": 1849190,
+        "death_t": 49537,
+        "case_new": 8852,
+        "death_new": 91,
+        "vac_distributed": 11109840,
+        "vac_initiated": 5761882,
+        "vac_completed": 2960695
+    },
+    {
+        "state": "OH",
+        "case_t": 1011622,
+        "death_t": 18526,
+        "case_new": 1019,
+        "death_new": 0,
+        "vac_distributed": 6386995,
+        "vac_initiated": 3266675,
+        "vac_completed": 1885553
+    },
+    {
+        "state": "OK",
+        "case_t": 436971,
+        "death_t": 4850,
+        "case_new": 467,
+        "death_new": 0,
+        "vac_distributed": 2530785,
+        "vac_initiated": 1192525,
+        "vac_completed": 675816
+    },
+    {
+        "state": "OR",
+        "case_t": 163952,
+        "death_t": 2386,
+        "case_new": 215,
+        "death_new": 0,
+        "vac_distributed": 2205385,
+        "vac_initiated": 1141447,
+        "vac_completed": 665111
+    },
+    {
+        "state": "PA",
+        "case_t": 1016713,
+        "death_t": 25058,
+        "case_new": 2576,
+        "death_new": 14,
+        "vac_distributed": 7164385,
+        "vac_initiated": 3917341,
+        "vac_completed": 2007637
+    },
+    {
+        "state": "PR",
+        "case_t": 140103,
+        "death_t": 2112,
+        "case_new": 595,
+        "death_new": 0,
+        "vac_distributed": "0",
+        "vac_initiated": "0",
+        "vac_completed": "0"
+    },
+    {
+        "state": "RI",
+        "case_t": 135775,
+        "death_t": 2608,
+        "case_new": 485,
+        "death_new": 0,
+        "vac_distributed": 616065,
+        "vac_initiated": 331853,
+        "vac_completed": 205007
+    },
+    {
+        "state": "SC",
+        "case_t": 549199,
+        "death_t": 9122,
+        "case_new": 1085,
+        "death_new": 18,
+        "vac_distributed": 2652225,
+        "vac_initiated": 1355018,
+        "vac_completed": 738219
+    },
+    {
+        "state": "SD",
+        "case_t": 117244,
+        "death_t": 1933,
+        "case_new": 163,
+        "death_new": 0,
+        "vac_distributed": 581525,
+        "vac_initiated": 300563,
+        "vac_completed": 191284
+    },
+    {
+        "state": "TN",
+        "case_t": 792811,
+        "death_t": 11713,
+        "case_new": 48,
+        "death_new": 0,
+        "vac_distributed": 3554800,
+        "vac_initiated": 1647245,
+        "vac_completed": 897034
+    },
+    {
+        "state": "TX",
+        "case_t": 2743679,
+        "death_t": 48263,
+        "case_new": 3293,
+        "death_new": 51,
+        "vac_distributed": 14660800,
+        "vac_initiated": 7099537,
+        "vac_completed": 3684436
+    },
+    {
+        "state": "UT",
+        "case_t": 384621,
+        "death_t": 2114,
+        "case_new": 390,
+        "death_new": 13,
+        "vac_distributed": 1500500,
+        "vac_initiated": 783973,
+        "vac_completed": 349967
+    },
+    {
+        "state": "VA",
+        "case_t": 615366,
+        "death_t": 10198,
+        "case_new": 1392,
+        "death_new": 20,
+        "vac_distributed": 4489825,
+        "vac_initiated": 2493161,
+        "vac_completed": 1359316
+    },
+    {
+        "state": "VT",
+        "case_t": 18820,
+        "death_t": 225,
+        "case_new": 197,
+        "death_new": 1,
+        "vac_distributed": 393330,
+        "vac_initiated": 199645,
+        "vac_completed": 108611
+    },
+    {
+        "state": "WA",
+        "case_t": 363659,
+        "death_t": 5288,
+        "case_new": 71,
+        "death_new": 0,
+        "vac_distributed": 4114320,
+        "vac_initiated": 2188808,
+        "vac_completed": 1279534
+    },
+    {
+        "state": "WI",
+        "case_t": 633717,
+        "death_t": 7275,
+        "case_new": 471,
+        "death_new": 0,
+        "vac_distributed": 2996415,
+        "vac_initiated": 1794367,
+        "vac_completed": 1039433
+    },
+    {
+        "state": "WV",
+        "case_t": 140613,
+        "death_t": 2634,
+        "case_new": 297,
+        "death_new": 3,
+        "vac_distributed": 1067635,
+        "vac_initiated": 524381,
+        "vac_completed": 330678
+    },
+    {
+        "state": "WY",
+        "case_t": 56046,
+        "death_t": 695,
+        "case_new": 0,
+        "death_new": 0,
+        "vac_distributed": 353975,
+        "vac_initiated": 147413,
+        "vac_completed": 96398
+    }
+]
