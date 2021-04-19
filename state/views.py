@@ -24,7 +24,7 @@ def state(request):
         json_dict['vac_second'] = i.vac_second
         json_list.append(json_dict)
 
-    return HttpResponse(json.dumps(data))
+    return HttpResponse(json.dumps(json_list))
 
 
 def covid(request):
