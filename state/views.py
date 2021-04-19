@@ -9,20 +9,23 @@ import datetime
 def state(request):
     ret = models.State.objects.all()
 
-    # json_list = []
-    # for i in ret:
-    #     json_dict = {}
-    #     json_dict['state'] = i.state
-    #     json_list.append(json_dict)
-    #
-    # data = json.dumps(json_list)
+    json_list = []
+    for i in ret:
+        json_dict = {}
+        json_dict['state'] = i.state
+        json_dict['cases'] = i.cases
+        json_dict['cases_day'] = i.cases_day
+        json_dict['cases_week'] = i.cases_week
+        json_dict['deaths'] = i.deaths
+        json_dict['deaths_day'] = i.deaths_day
+        json_dict['deaths_week'] = i.deaths_week
+        json_dict['vac_adm'] = i.vac_adm
+        json_dict['vac_first'] = i.vac_first
+        json_dict['vac_second'] = i.vac_second
+        json_list.append(json_dict)
 
+    return HttpResponse(json.dumps(data))
 
-    # print (data, type(data))
-
-
-    #return HttpResponse('TEST!')
-    return render(request, 'state.html', {'data': ret})
 
 def covid(request):
     if request.method == 'GET':
