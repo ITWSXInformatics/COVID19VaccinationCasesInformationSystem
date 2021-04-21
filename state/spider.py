@@ -68,27 +68,27 @@ def state():
      for i in range(0, len(data)):
         if models.State.objects.filter(state = data['state'][i]):
             models.State.objects.filter(state = data['state'][i]).update(
-                cases = data['cases'][i]
-                cases_day = data['cases_day'][i]
-                cases_week = data['cases_week'][i]
-                deaths = data['deaths'][i]
-                deaths_day = data['deaths_day'][i]
-                deaths_week = data['deaths_week'][i]
-                vac_adm = data['vac_adm'][i]
-                vac_first = data['vac_first'][i]
+                cases = data['cases'][i],
+                cases_day = data['cases_day'][i],
+                cases_week = data['cases_week'][i],
+                deaths = data['deaths'][i],
+                deaths_day = data['deaths_day'][i],
+                deaths_week = data['deaths_week'][i],
+                vac_adm = data['vac_adm'][i],
+                vac_first = data['vac_first'][i],
                 vac_second = data['vac_second'][i]
             )
         else:
             models.State.objects.create(
-                state = data['state'][i]
-                cases = data['cases'][i]
-                cases_day = data['cases_day'][i]
-                cases_week = data['cases_week'][i]
-                deaths = data['deaths'][i]
-                deaths_day = data['deaths_day'][i]
-                deaths_week = data['deaths_week'][i]
-                vac_adm = data['vac_adm'][i]
-                vac_first = data['vac_first'][i]
+                state = data['state'][i],
+                cases = data['cases'][i],
+                cases_day = data['cases_day'][i],
+                cases_week = data['cases_week'][i],
+                deaths = data['deaths'][i],
+                deaths_day = data['deaths_day'][i],
+                deaths_week = data['deaths_week'][i],
+                vac_adm = data['vac_adm'][i],
+                vac_first = data['vac_first'][i],
                 vac_second = data['vac_second'][i]
             )
         
