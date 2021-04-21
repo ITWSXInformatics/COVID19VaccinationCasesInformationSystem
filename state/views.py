@@ -29,7 +29,7 @@ def state(request):
 
 def covid(request):
     if request.method == 'GET':
-        area = request.GET.get('area') #get variable from frontend request
+        area = request.GET.get('area')#get variable from frontend request
         print(area)
         if area == 'nationwide':
             datas = models.Covid.objects.all()  #Retrive data from database
@@ -40,13 +40,44 @@ def covid(request):
 
         if area == '':    #Return empty json
             data = {
-                "area": "",
-                "covid_time": [],
-                "covid_statistic": {
-                "case_total": 0,
-                "death_total": 0
-                }
+            "area": "",
+            "covid_time": [],
+            "covid_statistic": {
+            "case_total": 0,
+            "death_total": 0
             }
+            }
+        elif area == 'nationwide':
+            data = {}
+            data['area'] = area
+            data['covid_time'] = []
+            case_total = 0
+            death_total = 0
+            dicss1 = {}
+            for da in datas:
+                if dicss1.get(da.date.strftime('%Y-%m-%d'), '') == '':
+                    dicts = {}
+                    dicts['date'] = da.date.strftime('%Y-%m-%d')  
+                    dicts['cases'] = da.Cases
+                    dicts['deaths'] = da.Deaths
+                    case_total += da.Cases
+                    death_total += da.Deaths
+                    dicss1[da.date.strftime('%Y-%m-%d')] = dicts
+                else:
+                    dicts = {}
+                    dicts['date'] = da.date.strftime('%Y-%m-%d')  
+                    dicts['cases'] = float(dicss1[da.date.strftime('%Y-%m-%d')]['cases']) + float(da.Cases)
+                    dicts['deaths'] = float(dicss1[da.date.strftime('%Y-%m-%d')]['deaths']) + float(da.Deaths)
+                    case_total += da.Cases
+                    death_total += da.Deaths
+                    dicss1[da.date.strftime('%Y-%m-%d')] = dicts
+            list1 = []
+            for key,value in dicss1.items():
+                list1.append(value)
+            data['covid_time'] = list1
+            data['case_total'] = case_total
+            data['death_total'] = death_total
+
         else:
             data = {}
             data['area'] = area
@@ -55,7 +86,7 @@ def covid(request):
             death_total = 0
             for da in datas:
                 dicts = {}
-                dicts['date'] = da.date.strftime('%Y-%m-%d')
+                dicts['date'] = da.date.strftime('%Y-%m-%d')   
                 dicts['cases'] = da.Cases
                 dicts['deaths'] = da.Deaths
                 data['covid_time'].append(dicts)
