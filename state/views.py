@@ -20,9 +20,9 @@ def state(request):
         json_dict['deaths'] = i.deaths
         json_dict['deaths_day'] = i.deaths_day
         json_dict['deaths_week'] = i.deaths_week
-        json_dict['vac_adm'] = i.vac_adm
-        json_dict['vac_first'] = i.vac_first
-        json_dict['vac_second'] = i.vac_second
+        json_dict['vac_adm'] = int(i.vac_adm)
+        json_dict['vac_first'] = int(i.vac_first)
+        json_dict['vac_second'] = int(i.vac_second)
         json_list.append(json_dict)
         dic[i.state] = json_dict
         
