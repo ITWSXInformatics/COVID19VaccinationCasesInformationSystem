@@ -19,6 +19,6 @@ from state import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('covid_states/', views.state),
+    path('covid-states/', views.state),
     path('covid-time/', views.covid),
 ]
