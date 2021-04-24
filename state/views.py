@@ -10,6 +10,7 @@ def state(request):
     ret = models.State.objects.all()
 
     json_list = []
+    dic = {}
     for i in ret:
         json_dict = {}
         json_dict['state'] = i.state
@@ -23,8 +24,9 @@ def state(request):
         json_dict['vac_first'] = i.vac_first
         json_dict['vac_second'] = i.vac_second
         json_list.append(json_dict)
-
-    return HttpResponse(json.dumps(json_list))
+        dic[i.state] = json_dict
+        
+    return HttpResponse(json.dumps(dic))
 
 
 def covid(request):
