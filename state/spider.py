@@ -62,10 +62,10 @@ def state():
             i['deaths_day'] = 0
         if i['cases_day'] == None:
             i['cases_day'] = 0
-     data = pd.DataFrame(json_list)
-     data = data.fillna(0)
+    data = pd.DataFrame(json_list)
+    data = data.fillna(0)
         
-     for i in range(0, len(data)):
+    for i in range(0, len(data)):
         if models.State.objects.filter(state = data['state'][i]):
             models.State.objects.filter(state = data['state'][i]).update(
                 cases = data['cases'][i],
@@ -125,3 +125,4 @@ def main():
                 )
 if __name__ == '__main__':
     main()
+    state()
